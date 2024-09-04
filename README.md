@@ -74,3 +74,31 @@ There is also a [bundle](./unigetui.bundle.json) you can import and install with
 -   [HandBrake](https://handbrake.fr/) - HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.
 -   [OBS Studio](https://obsproject.com/) - Free and open source software for video recording and live streaming.
 -   [VLC Media Player](https://www.videolan.org/vlc/index.html) - VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.
+
+---
+
+# Docker Images
+
+Those tools surely can be used inside a container, so here are some Docker images that I use often.
+
+-   [Web File Browser](https://github.com/filebrowser/filebrowser) - Web File Browser which can be used as a middleware or standalone app.
+    ```bash
+    docker pull filebrowser/filebrowser
+    ```
+-   [PhotoPrism](https://github.com/photoprism/photoprism) - Personal Photo Management powered by Go and Google TensorFlow
+    ```bash
+    docker pull photoprism/photoprism
+    ```
+-   [Seq](https://datalust.co/seq) - The structured log viewer you've been looking for
+    ```bash
+    docker pull datalust/seq
+    ```
+-   [TeamCity](https://www.jetbrains.com/teamcity/) - TeamCity is a continuous integration and continuous delivery server developed by JetBrains
+    ```bash
+    docker pull jetbrains/teamcity-server
+    ```
+-   [MS SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) - Microsoft SQL Server
+    ```bash
+    docker pull mcr.microsoft.com/mssql/server:2022-latest
+    ```
+
